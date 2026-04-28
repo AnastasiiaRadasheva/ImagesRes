@@ -7,10 +7,16 @@ public class StartPage : ContentPage
     public List<ContentPage> Lehed = new List<ContentPage>()
     {
         new MainPage(),
-        new Main11()
+        new Main11(),
+        new HabitPage()
     };
 
-    public List<string> LeheNimed = new List<string>() { "Images", "Mäng" };
+    public List<string> LeheNimed = new List<string>()
+    {
+        "Images",
+        "Mäng",
+        "HabitFlow"
+    };
 
     public StartPage()
     {
@@ -20,7 +26,7 @@ public class StartPage : ContentPage
 
         for (int i = 0; i < Lehed.Count; i++)
         {
-            int index = i; 
+            int index = i;
 
             var nupp = new Button
             {
