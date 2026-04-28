@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Ressursside fail loomapiltide nimedega.
+    Tüüp: String  (MITTE Image — Image tüüp põhjustab probleeme mobiilil!)
+    MAUI Image komponent teab ise, kus kass.png asub.
+  -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+
+  <!-- Kass -->
+  <data name="AnimalCat" xml:space="preserve">
+    <value>kass.png</value>
+    <comment>Viide kassile (SVG konverteeritakse PNG-ks build ajal)</comment>
+  </data>
+
+  <!-- Koer -->
+  <data name="AnimalDog" xml:space="preserve">
+    <value>koer.png</value>
+    <comment>Viide koerale</comment>
+  </data>
+
+  <!-- Kala -->
+  <data name="AnimalFish" xml:space="preserve">
+    <value>kala.png</value>
+    <comment>Viide kalale</comment>
+  </data>
+
+</root>
