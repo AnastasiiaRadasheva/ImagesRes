@@ -18,6 +18,7 @@ public class StartPage : ContentPage
         "HabitFlow"
     };
 
+
     public StartPage()
     {
         Title = "Avaleht";
