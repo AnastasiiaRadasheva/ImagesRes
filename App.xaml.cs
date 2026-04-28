@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using VertHorisNaidis;
 
 namespace MauiApp1
 {
@@ -11,7 +12,14 @@ namespace MauiApp1
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new AppShell());
+            var startPage = new StartPage();
+            var navPage = new NavigationPage(startPage)
+            {
+                BarBackgroundColor = Colors.Bisque,
+                BarTextColor = Colors.White
+            };
+
+            return new Window(navPage);
         }
     }
 }
